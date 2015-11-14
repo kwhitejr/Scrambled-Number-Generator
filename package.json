@@ -4,7 +4,7 @@
   "description": "- Plan your execution on white board before forking and cloning. - Fork and clone the project. - Set up your file structure.   - [Folder] Scrambled-Number-Generator     - [Folder] js       - generator.js     - [Folder] spec       - generator-spec.js - Install npm, mocha, and chai from your Scrambled-Number-Generator folder",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha ./spec"
   },
   "repository": {
     "type": "git",

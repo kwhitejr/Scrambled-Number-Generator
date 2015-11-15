@@ -24,7 +24,7 @@ See https://github.com/coolaj86/knuth-shuffle */
     // And swap it with the current element.
     temporaryValue = numArr[currentIndex];
     numArr[currentIndex] = numArr[randomIndex];
-    numArr[randomIndex] = temporaryValue;
+    numArr[randomIndex] = temporaryValue; // shuffled elements sent to the back of the array
   }
   console.log(numArr);
   return numArr;

@@ -36,7 +36,7 @@ describe('Generator', function() {
     });
 
     it('largest array value must be less than amount', function () {
-      expect(generator(10)).to.not.contain(10, 'array value should contain all integers between 0 and "amount - 1" ');
+      expect(Math.max.apply(null, generator(10))).to.be.below(10, 'array value should contain all integers between 0 and "amount - 1" ');
     });
 
   });
